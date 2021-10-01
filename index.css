@@ -1,0 +1,249 @@
+html {
+    margin: 0;
+    padding: 0;
+    /* background-color: grey; */
+}
+body {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+    align-items: center;
+}
+
+input {
+    margin: 5px;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+legend {
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+    /* background-color: green; */
+}
+
+button {
+    margin: 5px
+}
+
+span {
+    font-weight: bold;
+}
+
+
+#calc-options {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#numbers1 {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#numbers2 {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.declaration {
+    font-size: xx-small;
+}
+
+#app-header {
+    margin: 20px;
+}
+
+/* options area */
+
+
+#options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#option-row {
+    /* background-color: green; */
+    /* border: 1px solid black; */
+    /* border-radius: 3px; */
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+#calc-options {
+    margin: 5px;
+}
+
+#numbers1 {
+    margin: 5px;
+}
+
+#numbers2 {
+    margin: 5px;
+}
+
+
+.number-area-range {
+    margin-left: 27px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.number-selection-range {
+    margin-left: 27px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.input-number-area {
+    /* margin: 0 4px; */
+    width: 40px;
+}
+
+.input-number-selection {
+    /* margin: 0 4px; */
+    width: 100px;
+}
+
+#btn-calc-options {
+    display: flex;
+    flex-direction: column;
+}
+
+#options-error-message {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(230, 154, 154);
+}
+
+
+#btn-start {
+    margin: 5px;
+}
+
+
+/* quiz area */
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-card {
+    padding: 0;
+    width: 70vw;
+    height: 40vh;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#calc-card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#calc-card-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+
+#calc-show-div {
+    padding: 0;
+    margin: auto 10px;
+    /* width: 40vmax; */
+    font-size: 3vw;
+    vertical-align: middle;
+    /* font-size: 25px; */
+}
+
+
+#calc-input-div {
+    width: 11vmax;
+    margin: 10px;
+}
+
+#calc-input {
+    width: 100%;
+    /* height: 50px; */
+    /* font-size: 36px; */
+    font-size: 3vw;
+    text-align: center;
+}
+
+#delete-calc-input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#calc-button-div {
+    display: flex;
+    align-items: center;
+    /* width: 5vmax;    */
+    margin:10px;
+}
+
+
+#quiz-message{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#success-message {
+    border-radius: 5px;
+    background-color: rgb(115, 219, 45);
+    /* display: none; */
+}
+
+#fail-message {
+    border-radius: 5px;
+    background-color: rgb(230, 154, 154);
+    /* display: none; */
+}
+
+
+
+#result-success {
+    border-radius: 5px;
+    background-color: rgb(115, 219, 45);
+}
+
+
+#result-fail {
+    border-radius: 5px;
+    background-color: rgb(221, 142, 67);
+}
+
+
+#end-button-div {
+    display: flex;
+    justify-content: center;
+    /* width: 5vmax;    */
+    margin:10px;
+}
